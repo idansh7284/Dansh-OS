@@ -1,0 +1,8 @@
+CC = i686-elf-gcc
+LD = i686-elf-ld
+
+all:
+	$(CC) $(CC_FLAG) kernel/kernel.c -o bin/kernel.o
+
+
+
